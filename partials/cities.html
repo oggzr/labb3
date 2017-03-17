@@ -1,0 +1,29 @@
+<section >
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-xs-4">
+
+			<ul ng-repeat="n in cit">
+				<li>
+					<strong>Stad:</strong>{{n.name}}
+				</li>
+				<li>
+					<strong>Folkmängd:</strong>{{n.population}}
+				</li>
+			</ul>
+
+		</div>
+		
+		
+		<div class="col-xs-8 text-center">
+			<input type="button" name="ogge" class="btn btn-default send" ng-click="cities.post()" value="ADD OGGETOWN" >
+		
+			<div class="col-xs-12">	
+				<canvas id="bar" class="chart chart-pie" chart-data="pop" chart-labels="label"></canvas>
+			</div>	
+		</div>
+	</div>
+</div>
+
+</section>

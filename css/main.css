@@ -1,0 +1,24 @@
+main input {
+  margin-bottom: 10px; }
+
+main label {
+  display: block; }
+
+main input.send {
+  margin-bottom: 50px; }
+
+div.productWrap {
+  border: solid 1px black;
+  padding: 30px;
+  margin-bottom: 40px;
+  margin-top: 40px; }
+  div.productWrap img {
+    width: 300px;
+    height: auto;
+    margin: 30px auto;
+    display: block;
+    max-width: 100%; }
+
+footer {
+  height: 300px;
+  background-color: black; }

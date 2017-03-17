@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>E-handeln</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap-css-only/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/angular-bootstrap/ui-bootstrap-csp.css">
+</head>
+<body>	
+	<header>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-4">
+					<a href="#!/home">E-handeln</a>
+				</div>
+				<div class="col-xs-4 text-center">
+					<a href="#!/cities">Städer</a>
+				</div>
+				<div class="col-xs-4">
+					<ul>
+						<li>
+							<a href="#!/add">Add Products</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>			
+	</header>
+	<main>
+		
+			<ui-view>
+			</ui-view>
+		
+		
+		
+	</main>
+	<footer>
+		
+	</footer>
+
+
+
+</body>
+
+
+<!-- <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script> -->
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-messages/angular-messages.js"></script>
+<script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="node_modules/angular-chart.js/node_modules/chart.js/dist/Chart.js"></script>
+<script src="node_modules/angular-chart.js/dist/angular-chart.js"></script>
+<script src="dist/script.min.js"></script>
+</html>

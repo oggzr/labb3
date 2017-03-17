@@ -1,0 +1,16 @@
+header {
+  background-color: black;
+  color: white;
+  height: 80px;
+  margin-bottom: 30px; }
+  header a {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    color: red;
+    line-height: 80px; }
+  header ul li {
+    list-style: none;
+    float: right; }
+    header ul li a {
+      font-size: 20px; }
